@@ -1,0 +1,16 @@
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\bin\Debug\net8.0-windows\RoqueJustin.exe
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\bin\Debug\net8.0-windows\RoqueJustin.deps.json
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\bin\Debug\net8.0-windows\RoqueJustin.runtimeconfig.json
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\bin\Debug\net8.0-windows\RoqueJustin.dll
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\bin\Debug\net8.0-windows\RoqueJustin.pdb
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\RoqueJustin.Form1.resources
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\RoqueJustin.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\RoqueJustin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\RoqueJustin.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\RoqueJustin.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\RoqueJustin.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\RoqueJustin.dll
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\refint\RoqueJustin.dll
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\RoqueJustin.pdb
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\RoqueJustin.genruntimeconfig.cache
+C:\Users\Acer\Desktop\Visual Studio\RoqueJustin\obj\Debug\net8.0-windows\ref\RoqueJustin.dll
