@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Desktop\\Visual Studio\\RoqueJustin\\RoqueJustin\\RoqueJustin.csproj": {}
+    "C:\\Users\\Acer\\Documents\\EDP_Ptask\\RoqueJustin\\RoqueJustin\\RoqueJustin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Desktop\\Visual Studio\\RoqueJustin\\RoqueJustin\\RoqueJustin.csproj": {
+    "C:\\Users\\Acer\\Documents\\EDP_Ptask\\RoqueJustin\\RoqueJustin\\RoqueJustin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Visual Studio\\RoqueJustin\\RoqueJustin\\RoqueJustin.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Documents\\EDP_Ptask\\RoqueJustin\\RoqueJustin\\RoqueJustin.csproj",
         "projectName": "RoqueJustin",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Visual Studio\\RoqueJustin\\RoqueJustin\\RoqueJustin.csproj",
+        "projectPath": "C:\\Users\\Acer\\Documents\\EDP_Ptask\\RoqueJustin\\RoqueJustin\\RoqueJustin.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Visual Studio\\RoqueJustin\\RoqueJustin\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Documents\\EDP_Ptask\\RoqueJustin\\RoqueJustin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
