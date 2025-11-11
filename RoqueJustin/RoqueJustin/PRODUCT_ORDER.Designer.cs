@@ -28,32 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
+            viewProducts = new Button();
+            orderProducts = new Button();
             SuspendLayout();
             // 
-            // button1
+            // viewProducts
             // 
-            button1.BackColor = SystemColors.Control;
-            button1.Font = new Font("Segoe UI Emoji", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(114, 91);
-            button1.Name = "button1";
-            button1.Size = new Size(299, 115);
-            button1.TabIndex = 0;
-            button1.Text = "View Products";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            viewProducts.BackColor = SystemColors.Control;
+            viewProducts.Font = new Font("Segoe UI Emoji", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            viewProducts.Location = new Point(114, 91);
+            viewProducts.Name = "viewProducts";
+            viewProducts.Size = new Size(299, 115);
+            viewProducts.TabIndex = 0;
+            viewProducts.Text = "View Products";
+            viewProducts.UseVisualStyleBackColor = false;
+            viewProducts.Click += button1_Click;
             // 
-            // button2
+            // orderProducts
             // 
-            button2.BackColor = SystemColors.Control;
-            button2.Font = new Font("Segoe UI Emoji", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(114, 247);
-            button2.Name = "button2";
-            button2.Size = new Size(299, 115);
-            button2.TabIndex = 1;
-            button2.Text = "Order";
-            button2.UseVisualStyleBackColor = false;
+            orderProducts.BackColor = SystemColors.Control;
+            orderProducts.Font = new Font("Segoe UI Emoji", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            orderProducts.Location = new Point(114, 247);
+            orderProducts.Name = "orderProducts";
+            orderProducts.Size = new Size(299, 115);
+            orderProducts.TabIndex = 1;
+            orderProducts.Text = "Order";
+            orderProducts.UseVisualStyleBackColor = false;
+            orderProducts.Click += button2_Click;
             // 
             // ProductOrder
             // 
@@ -61,8 +62,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDark;
             ClientSize = new Size(531, 450);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(orderProducts);
+            Controls.Add(viewProducts);
             Name = "ProductOrder";
             Text = "PRODUCT_ORDER";
             ResumeLayout(false);
@@ -70,7 +71,7 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
+        private Button viewProducts;
+        private Button orderProducts;
     }
 }

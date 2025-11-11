@@ -33,7 +33,7 @@ namespace RoqueJustin
                 {
                     productList.drink_List.Add(name, Double.Parse(price));
                     addRemarks.Text = name + " = " + Double.Parse(price) + " is added to the list !";
-                    productList.productData();
+                    productList.setData();
                 }
                 else
                 {

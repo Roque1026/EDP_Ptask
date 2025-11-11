@@ -15,7 +15,7 @@ namespace RoqueJustin
     {
         public Hashtable food_List;
         public Hashtable drink_List;
-        ICollection productList;
+        public ICollection productList;
 
         AddFood addfood;
         RemoveFood removefood;
@@ -31,27 +31,27 @@ namespace RoqueJustin
             removedrinks = new RemoveDrinks(this);
             food_List = new Hashtable();
             drink_List = new Hashtable();
-            productData();
-        }
-        public void productData()
-        {
-            food_List.Add("Adobo", 55.50);
-
-            drink_List.Add("Coke", 20.00);
             setData();
         }
+        //public void productData()
+        //{
+        //    food_List.Add("Adobo", 55.50);
+
+        //    drink_List.Add("Coke", 20.00);
+        //    setData();
+        //}
         public void setData()
         {
+            foodList.Clear();
+            drinksList.Clear();
             productList = food_List.Keys;
             foreach (string key in productList)
             {
-                foodList.Clear();
                 foodList.Items.Add(key + " = " + food_List[key].ToString());
             }
             productList = drink_List.Keys;
             foreach (string key in productList)
             {
-                drinksList.Clear();
                 drinksList.Items.Add(key + " = " + drink_List[key].ToString());
             }
         }
