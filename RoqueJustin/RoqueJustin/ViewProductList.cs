@@ -21,6 +21,7 @@ namespace RoqueJustin
         RemoveFood removefood;
         AddDrinks adddrinks;
         RemoveDrinks removedrinks;
+        OrderForm orderform;
 
         public ViewProductList()
         {
@@ -31,15 +32,9 @@ namespace RoqueJustin
             removedrinks = new RemoveDrinks(this);
             food_List = new Hashtable();
             drink_List = new Hashtable();
+            orderform = new OrderForm();
             setData();
         }
-        //public void productData()
-        //{
-        //    food_List.Add("Adobo", 55.50);
-
-        //    drink_List.Add("Coke", 20.00);
-        //    setData();
-        //}
         public void setData()
         {
             foodList.Clear();
@@ -48,11 +43,13 @@ namespace RoqueJustin
             foreach (string key in productList)
             {
                 foodList.Items.Add(key + " = " + food_List[key].ToString());
+                orderform.orderFoodList.Items.Add(key + " = " + food_List[key].ToString());
             }
             productList = drink_List.Keys;
             foreach (string key in productList)
             {
                 drinksList.Items.Add(key + " = " + drink_List[key].ToString());
+                orderform.orderDrinkList.Items.Add(key+ " = " + food_List[key].ToString());
             }
         }
         private void addFood_Click(object sender, EventArgs e)

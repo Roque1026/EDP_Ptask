@@ -13,32 +13,16 @@ namespace RoqueJustin
 {
     public partial class OrderForm : Form
     {
-        ViewProductList viewList;
+        ProcessOrder processorder;
         public OrderForm()
         {
             InitializeComponent();
-            viewList = new ViewProductList();
-            setOrderData();
-        }
-        public void setOrderData()
-        {
-            orderFoodList.Clear();
-            orderDrinkList.Clear();
-            viewList.productList = viewList.food_List.Keys;
-            foreach (string key in viewList.productList)
-            {
-                orderFoodList.Items.Add(key + " = " + viewList.food_List[key].ToString());
-            }
-            viewList.productList = viewList.drink_List.Keys;
-            foreach (string key in viewList.productList)
-            {
-                orderDrinkList.Items.Add(key + " = " + viewList.drink_List[key].ToString());
-            }
+            processorder = new ProcessOrder();
         }
 
         private void Order_Click(object sender, EventArgs e)
         {
-
+            processorder.ShowDialog();
         }
     }
 }
